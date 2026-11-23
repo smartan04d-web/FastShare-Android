@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android { namespace 'com.fastshare.app'; compileSdk 35
+ defaultConfig { applicationId 'com.fastshare.app'; minSdk 29; targetSdk 35; versionCode 1; versionName '1.0' }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies { implementation 'androidx.activity:activity:1.9.3'; implementation 'com.google.zxing:core:3.5.3'; implementation 'com.journeyapps:zxing-android-embedded:4.3.0' }
